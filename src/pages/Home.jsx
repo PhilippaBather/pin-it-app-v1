@@ -1,11 +1,14 @@
-import Header from "../layout/Header";
-import NavigationPanel from "../layout/NavigationPanel";
+import Grid from "../layout/Grid";
+import styles from "../layout/styles.module.scss";
+
 const Home = () => {
   return (
     <>
-      <Header />
-      <NavigationPanel />
-      <main></main>
+      <Grid>
+        <main className={styles.main}>
+          <h1>Hello, world!</h1>
+        </main>
+      </Grid>
     </>
   );
 };
