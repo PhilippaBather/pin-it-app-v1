@@ -1,7 +1,7 @@
 import Logo from "../components/ui/Logo";
 import UserIconButton from "../components/ui/buttons/UserIconButton";
-// import styles from "./Header.module.scss";
 import styles from "./styles.module.scss";
+
 
 const Header = () => {
   return (
